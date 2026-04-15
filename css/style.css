@@ -4,7 +4,7 @@ body {
 header, main, footer, section {
     width: 1170px;
     box-sizing: border-box;
-    margin: 0 auto;
+    margin: auto;
 }
 header {
     background-color: rgba(0, 48, 104, 0.95);
@@ -20,7 +20,7 @@ header div a{
     background-color: #3493d3;
     font-size: 18px;
     color: #fff;
-    margin-left: -5px;
+    margin-left: 25px;
     box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.08);
 }
 header div a span {
@@ -33,15 +33,15 @@ header div a span {
 }
 header div a:hover {background-color: #297cb3;}
 header div a:active {background-color: rgba(0, 48, 104, 0.95);}
-#home{height: 1960px;}
-#experience{height: 1050px;}
+#home{height: 1600px;}
+#experience{height: 1300px;}
 #portfolio{height: 300px;}
 #contact{height: 500px;}
 section {
     padding: 40px 0 50px 116px;
     box-sizing: border-box;
     background-color: #fff;
-    height: 700px;
+    height: auto;
 }
 #up {
     position: fixed;
@@ -101,22 +101,22 @@ section {
     z-index: 1;
 }
 .imgHorizontal img{
-    height: 80px;
+    height: 70px;
     width: auto;
 }
 .imgHorizontal img:hover{
-    height: 310px;
+    height: 350px;
     width: auto;
     position: relative;
     z-index: 1;
 }
 .left, .right{
     width: 450px;
-    height: 150px;
+    height: 140px;
     background-color: #e0f4ff;
     border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
+    padding: 5px;
+    margin: 5px;
 }
 .left{
     float: left;
