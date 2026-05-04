@@ -114,12 +114,6 @@ section {
     height: 150px;
     width: auto;
 }
-.imgVertical img:hover{
-    height: auto;
-    width: 450px;
-    position: relative;
-    z-index: 1;
-}
 .left, .right{
     width: 450px;
     height: 140px;
